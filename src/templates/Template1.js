@@ -4,7 +4,7 @@ return(
 
 <div className="template">
 
-{data.photo && <img src={data.photo} width="120"/>}
+{data.photo && <img src={data.photo} width="120" alt="profile" />}
 
 <h2>{data.name}</h2>
 
